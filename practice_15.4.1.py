@@ -29,7 +29,6 @@ with open(name_file +".txt", 'r', encoding='utf8') as data:
     text_file = text_file.split()
     text_lenght = len(text_file)
     eng_max_symbol_str = ""
-    often_str = None
     word_dict = {}
     word_dict2 = {}
     i = 0
